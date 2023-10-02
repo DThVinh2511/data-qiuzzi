@@ -1,9 +1,330 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "tkBQHGDFD3FDFE5jqfsafd"
+    },
+    {
+      "fullname": "Do Thanh Vinh",
+      "email": "vinhacs@gmail.com",
+      "password": "dothanhvinh",
+      "token": "esBS3ksTIufAQ4N4ctKZ",
+      "id": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "Javascript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    },
+    {
+      "id": 5,
+      "name": "NodeJS"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "HTML là viết tắt của... ? ",
+      "anwsers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnwser": 2
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "question": "HTML là viết tắt của... ? ",
+      "anwsers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnwser": 2
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "question": "HTML là viết tắt của... ? ",
+      "anwsers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnwser": 2
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "HTML là viết tắt của... ? ",
+      "anwsers": [
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Text Markup Language"
+      ],
+      "correctAnwser": 2
+    }
+  ],
+  "anwsers": [
+    {
+      "userId": 1,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 1
+        },
+        {
+          "questionId": 2,
+          "anwser": 3
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 1
+        },
+        {
+          "questionId": 2,
+          "anwser": 3
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 1
+        },
+        {
+          "questionId": 2,
+          "anwser": 3
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "topicId": 3,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 1
+        },
+        {
+          "questionId": 2,
+          "anwser": 3
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 0
+        },
+        {
+          "questionId": 2,
+          "anwser": 1
+        },
+        {
+          "questionId": 3,
+          "anwser": 1
+        },
+        {
+          "questionId": 4,
+          "anwser": 0
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 1
+        },
+        {
+          "questionId": 2,
+          "anwser": 1
+        },
+        {
+          "questionId": 3,
+          "anwser": 2
+        },
+        {
+          "questionId": 4,
+          "anwser": 0
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 0
+        },
+        {
+          "questionId": 2,
+          "anwser": 1
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 2
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 0
+        },
+        {
+          "questionId": 2,
+          "anwser": 1
+        },
+        {
+          "questionId": 3,
+          "anwser": 1
+        },
+        {
+          "questionId": 4,
+          "anwser": 0
+        }
+      ],
+      "id": 8
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 0
+        },
+        {
+          "questionId": 2,
+          "anwser": 0
+        },
+        {
+          "questionId": 3,
+          "anwser": 0
+        },
+        {
+          "questionId": 4,
+          "anwser": 0
+        }
+      ],
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "anwsers": [],
+      "id": 10
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "anwsers": [],
+      "id": 11
+    },
+    {
+      "userId": 2,
+      "topicId": 1,
+      "anwsers": [
+        {
+          "questionId": 1,
+          "anwser": 2
+        },
+        {
+          "questionId": 2,
+          "anwser": 2
+        },
+        {
+          "questionId": 3,
+          "anwser": 2
+        },
+        {
+          "questionId": 4,
+          "anwser": 2
+        }
+      ],
+      "id": 12
+    }
+  ]
 }
